@@ -47,7 +47,19 @@
 
 5) ``` Too tired to do it manually?```
  Simply provide a url and it'll directly **change wallpaper from the given link!**
-6) And **much more** !!
+
+6) Get quotes on your wallpapers too
+ ![Gradient1](images/quote_gradient.png)
+ ![Gradient2](images/quote_solid.png)
+
+
+7) Make random gradient images as your wallpaper
+ ![Gradient](images/gradient.png)
+
+
+8) Change your wallpaper fit type (original, fit to screen)
+ 
+9) And **much more** !!
 
 
 Here's why:
@@ -77,7 +89,11 @@ The **settings** script has functions as follows:
     * Change keywords
     * Change time delay
     * Provide custom link to get wallpapers from
-    * Change the source of wallpapers (i.e. either from unsplash, or locally specified or from custom link)
+    * Change the source of wallpapers (i.e. either from unsplash, or locally specified or from custom link or get quotes on images)
+    * Reset settings to default.
+    
+    All with an easy to understand CLI-
+    ![CLI](images/cli.png)
 
 ## Roadmap
 
@@ -89,7 +105,6 @@ Contributions are what make the open source community such an amazing place to b
 * If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/kach17/Wallpaper-changer/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/kach17/Wallpaper-changer/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
 ### Creating A Pull Request
 
