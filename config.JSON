@@ -1,1 +1,34 @@
-{"using": {"unsplash_url": "https://source.unsplash.com/featured/?", "file_name": "Wallpaper ", "keywords": "hd,wallpaper", "sleep_time": 10, "saved_pic_number": 1, "custom_link": "https://www.pinterest.com/stuartbroad021/hd-wallpapers/", "source": 1, "fit_type": 2, "quote_settings": {"quote_randomize": true, "quote_bg_type": 2, "quote_bg": "#FAF1E6", "quote_text": "#7952B3"}}, "default": {"unsplash_url": "https://source.unsplash.com/featured/?", "file_name": "Wallpaper ", "keywords": "aesthetic", "sleep_time": 60, "saved_pic_number": 1, "custom_link": "https://www.pinterest.com/stuartbroad021/hd-wallpapers/", "source": 1, "fit_type": 1, "quote_settings": {"quote_randomize": false, "quote_bg_type": 1, "quote_bg": "#FAF1E6", "quote_text": "#7952B3"}}}
+{
+    "using": {
+        "unsplash_url": "https://source.unsplash.com/featured/?",
+        "file_name": "Wallpaper ",
+        "keywords": "hd,wallpaper",
+        "sleep_time": 10,
+        "saved_pic_number": 1,
+        "custom_link": "https://www.pinterest.com/stuartbroad021/hd-wallpapers/",
+        "source": 1,
+        "fit_type": 1,
+        "quote_settings": {
+            "quote_randomize": true,
+            "quote_bg_type": 2,
+            "quote_bg": "#FAF1E6",
+            "quote_text": "#7952B3",
+        },
+    },
+    "default": {
+        "unsplash_url": "https://source.unsplash.com/featured/?",
+        "file_name": "Wallpaper ",
+        "keywords": "aesthetic",
+        "sleep_time": 60,
+        "saved_pic_number": 1,
+        "custom_link": "https://www.pinterest.com/stuartbroad021/hd-wallpapers/",
+        "source": 1,
+        "fit_type": 1,
+        "quote_settings": {
+            "quote_randomize": false,
+            "quote_bg_type": 1,
+            "quote_bg": "#FAF1E6",
+            "quote_text": "#7952B3",
+        },
+    },
+}
