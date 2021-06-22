@@ -5,11 +5,17 @@ from importlib import reload
 def options():
     while True:
         # OPTIONS
-        option = all_functions.setting_function('Change wallpaper', 'Save picture',
-                                                'Save picture as-', 'Settings',
-                                                'Reset settings to default',
-                                                name='OPTIONS', updating=False,
-                                                auto_back_key=False, key='Exit')
+        option = all_functions.setting_function(
+            "Change wallpaper",
+            "Save picture",
+            "Save picture as-",
+            "Settings",
+            "Reset settings to default",
+            name="OPTIONS",
+            updating=False,
+            auto_back_key=False,
+            key="Exit",
+        )
 
         if option == 1:
             # Change wallpaper
@@ -23,10 +29,17 @@ def options():
         elif option == 4:
             # SETTINGS
             while True:
-                setting = all_functions.setting_function('Change keywords', 'Change time delay',
-                                                         'Change custom link', 'Change source of wallpapers',
-                                                         'Change fit type', 'Quotes settings', name='SETTINGS',
-                                                         updating=False, auto_back_key=False)
+                setting = all_functions.setting_function(
+                    "Change keywords",
+                    "Change time delay",
+                    "Change custom link",
+                    "Change source of wallpapers",
+                    "Change fit type",
+                    "Quotes settings",
+                    name="SETTINGS",
+                    updating=False,
+                    auto_back_key=False,
+                )
                 if setting == 1:
                     # Change keywords
                     all_functions.change_keywords()
@@ -38,11 +51,19 @@ def options():
                     all_functions.change_custom_link()
                 elif setting == 4:
                     # Change source of wallpapers
-                    all_functions.setting_function('From Unsplash', 'From Wallpapers Folder',
-                                                   'From custom link', 'Quotes', 'Gradient colors', name='source')
+                    all_functions.setting_function(
+                        "From Unsplash",
+                        "From Wallpapers Folder",
+                        "From custom link",
+                        "Quotes",
+                        "Gradient colors",
+                        name="source",
+                    )
                 elif setting == 5:
                     # Change fit type
-                    all_functions.setting_function('Original size', 'Fit to screen', name='fit_type')
+                    all_functions.setting_function(
+                        "Original size", "Fit to screen", name="fit_type"
+                    )
                 elif setting == 6:
                     # Quotes settings
                     all_functions.quote_settings()
@@ -55,10 +76,10 @@ def options():
         elif option == 5:
             all_functions.reset()
         elif option == 0:
-            print('Exiting...')
-            print('Okay see you!')
+            print("Exiting...")
+            print("Okay see you!")
             break
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     options()
