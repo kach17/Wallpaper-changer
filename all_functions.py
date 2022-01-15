@@ -46,7 +46,6 @@ def download(link, keywords):
 def setup(path_to_file):
     # setting up the wallpaper
     fit_to_screen(path_to_file)
-    path_to_file = os.path.join(os.getcwd(), "Wallpaper.jpg")
     SPI_SETDESKWALLPAPER = 20
     if is_64bit():
         ctypes.windll.user32.SystemParametersInfoW(
@@ -74,7 +73,7 @@ def run():
             json.load(config_file)
         try:
             download(unsplash_url, keywords)
-            setup("Wallpaper.jpg")
+            setup(os.path.join(os.getcwd(), "Wallpaper.jpg"))
         except Exception as e:
             print(f"Error {e}")
             raise NotImplementedError
